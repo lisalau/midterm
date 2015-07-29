@@ -1,0 +1,92 @@
+* { margin:0; padding:0; }
+
+
+body {
+  font-size: 100%;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: rgb(117, 66, 47);
+  line-height: 1.375;
+  background: rgb(60, 33, 24);}
+
+  a {
+  color: rgb(175, 98, 80);
+  text-decoration: none;}
+
+  a:hover {
+  color: #fff; }
+
+  .nav {
+  float: left;
+  text-align: right;
+  margin-top: 34px;
+  margin-left: 23px;
+
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+  
+  .nav h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.60em;
+  margin-bottom:5px;
+  }
+  
+  .nav ul {
+  	list-style: none;
+  	font-size: 0.75rem;
+    line-height: 1.4rem;
+  	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 25px 0 30px 0;
+  }
+
+.content {
+  display: inline-block;
+  width: 410px;
+  margin-left: 20px;
+  padding: 43px 0 0 0px;
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 1.45rem;
+  white-space: pre;
+	}
+
+h1 {
+  text-align: left;
+  text-transform: uppercase;
+  padding: 0 0 86px 10px;
+  background: rgb(55, 31, 21);
+  font-size: 0.75rem;
+  letter-spacing: 0.60em;
+  border-bottom: 1px solid rgb(105, 66, 59);
+  font-weight: 800;
+}
+
+h2 {
+  width: 360px;
+  height: 325px;
+	text-align: center;
+	border: 1px solid rgb(105, 66, 59);
+  background: rgb(55, 31, 21);
+	font-size: 4rem;
+/*  line-height: 5rem;
+*/  font-weight: 400;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+  line-height: 1;
+  margin-bottom: 120px;
+  padding: 0 10px 10px 10px;
+}
+.romannum {
+  font-size: 12rem;
+  line-height: 0.7;
+  padding-top: 37px;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+  color: rgb(153, 98, 77);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+

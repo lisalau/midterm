@@ -1,0 +1,89 @@
+* {
+	margin:0; padding:0;
+}
+
+body {
+	font-size: 100%;
+	font-family: "Arial", sans-serif;
+	color: rgb(68, 68, 68);
+	line-height: 1.375;
+	background-color: rgb(226, 190, 116);
+}
+
+a {
+	color: rgb(105, 61, 46);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+.page-container {
+	width: 1280px;
+}
+
+.watermark {
+	position: absolute; 
+	top: 2448px;
+	bottom: 0;
+	left: 0;
+	color:rgb(141, 112, 72);
+	font-size: 30em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.nav {
+	float: left;	
+	/*width: 30%;*/
+	/*padding: 16px 0 0 16px; */
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.nav {
+	margin-top: 6px;
+	margin-left: 176px;
+}
+.nav h3 {
+	font-size: 2.2rem;
+	font-weight: 400;
+	margin-bottom:5px;
+}
+.nav ul {
+	list-style: none;
+	font-size: 0.75rem;
+	font-family: "Arial", sans-serif;
+	margin-bottom: 20px;	
+}
+.content-wrapper {
+	float: left;
+	width: 666px;
+	margin-left: 60px;
+}
+.content {
+	white-space: pre;
+	font-size: 1rem;
+	color: rgb(58, 39, 40);	
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	font-family: Arial, sans-serif;
+	border-bottom: 1px solid rgb(56, 26, 24);
+	font-weight: 500;
+	letter-spacing: 0.75em;
+	margin: 23px 110px 20px 110px;
+	padding: 0;
+}
+
+h2 {
+	font-size: 3em;
+	text-indent: none;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+
+
+
